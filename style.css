@@ -1,0 +1,115 @@
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+     background-color: #183B4E;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color: #285065;
+
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+ }
+
+ nav ul li {
+     list-style: none;
+     gap: 4px;
+     margin: 0 12px 12px 8px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ nav ul li a:hover {
+     color: rgb(143, 143, 203);
+     font-size: 1.14rem;
+ }
+
+ .left {
+     font-size: 2rem;
+ }
+
+ .fristsection {
+     display: flex;
+     justify-content: space-around;
+     margin: 80px 0;
+ }
+
+ .fristsection>div {
+     width: 30%;
+ }
+
+ .leftsection {
+     font-size: 3rem;
+     margin: 90px 0;
+
+ }
+
+ .rightsection img {
+     width: 80%;
+ }
+
+ .parple {
+     color: #1d4ee0f0;
+ }
+
+ #element {
+     color: #1d4ee0f0;
+ }
+
+ footer {
+     background-color: #232e34;
+     height: 33px;
+     text-align: center;
+ }
+
+ .image-about {
+     width: 400px;
+ }
+
+ .secondSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 80px 0;
+ }
+
+ .box-right {
+    padding: 6px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     line-height: 35px;
+     width: 50%;
+     gap: 23px;
+ }
+
+ .about-head {
+     font-size: 3rem;
+     font-weight: 700;
+     margin: 44px 0 22px 12px;
+ }
+ .about-me{
+    color: #4fb0e5;
+ }
+ .about-disc{
+    font-weight: 400;
+ }
+ .info-my{
+    color:#ff5823;
+    font-weight: 700;
+ }
+
